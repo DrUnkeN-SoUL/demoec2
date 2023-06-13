@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Create our working directory if it doesn't exist
 DIR="/var/www/html/demoec2"
 if [ -d "$DIR" ]; then
     echo "${DIR} exists"
